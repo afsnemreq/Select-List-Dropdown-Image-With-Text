@@ -1,0 +1,101 @@
+﻿div.mm-dropdown {
+	border: 1px solid #ddd;
+	width: 100%;
+	border-radius: 3px;
+}
+
+	div.mm-dropdown ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		border: 0;
+	}
+
+		div.mm-dropdown ul li,
+		div.mm-dropdown div.textfirst {
+			padding: 0;
+			color: #333;
+			border-bottom: 1px solid #ddd;
+			padding: 5px 15px;
+		}
+
+			div.mm-dropdown div.textfirst img.down {
+				float: right;
+				margin-top: 5px
+			}
+
+			div.mm-dropdown ul li:last-child {
+				border-bottom: 0;
+			}
+
+		div.mm-dropdown ul li {
+			display: none;
+			padding-left: 25px;
+		}
+
+			div.mm-dropdown ul li.main {
+				display: block;
+			}
+
+			div.mm-dropdown ul li img {
+				width: 60px;
+				height: 60px;
+				margin-right: 13px !important;
+				margin-top: 10px;
+				margin-bottom: 10px;
+				border: 3px solid #e5dcdc;
+				object-fit: cover;
+			}
+
+			div.mm-dropdown ul li .select-text {
+				display: flex;
+				flex-direction: column;
+				flex-wrap: nowrap;
+				align-content: center;
+				justify-content: center;
+			}
+
+			div.mm-dropdown ul li .select-box {
+				display: flex;
+				flex-direction: row;
+				flex-wrap: nowrap;
+				align-content: center;
+				justify-content: flex-start;
+			}
+.select-username {
+	color: #ad9a9a;
+	font-size: 12px;
+}
+
+.select-name {
+	padding: 0;
+	color: #333;
+	font-weight: 600;
+	font-size: 16px;
+	text-shadow: 0.4px 0.12px #ddc8c8;
+}
+
+.select-text {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-content: center;
+	justify-content: center;
+}
+.select-box {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-content: center;
+	justify-content: flex-start;
+}
+.avatars {
+	margin-right: 15px;
+	width: 60px;
+	height: 60px;
+	margin-right: 13px !important;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 3px solid #e5dcdc;
+	object-fit: cover;
+}
